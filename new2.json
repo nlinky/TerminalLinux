@@ -1,0 +1,11 @@
+{
+  "FIO" : "Chervaykova Nadezhda Aleksandrovna",
+  "age" : 25,
+  "animal" : 1,
+  "salary" : 400,
+  "favorite movie" : "Harry Potter", 
+  "favorite TV series" : "Supernatural", 
+  "favorite food"  : "buters",
+  "favorite time of the year" : "spring", 
+  "the country you would like to visit" : ["Austria", "Norway"]
+}
