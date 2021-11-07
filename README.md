@@ -31,29 +31,26 @@ _Задание №1 - Linux terminal (GitBash) commands_
 18. Вывести несколько последних строк из текстового файла - `tail -2 C:/Users/Cherv/git/course/Linux_commands/one_papka/file1.txt`
 19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - `less C:/Users/Cherv/git/course/Linux_commands/one_papka/file1.txt`
 20. Вывести дату и время - `date`
-
 ==================================================================================
 _*Задание №2 - Отправить http запрос на сервер._
 ==================================================================================
 `curl 'http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000'`
-
-```{"age":"32","family":{"children":[["Alex",24],["Kate",12]],"pets":{"cat":{"age":3,"name":"Sunny"},"dog":{"age":4,"name":"Luky"}},"u_salary_1_5_year":4000},"name":"Vadim","salary":1000}```
 ==================================================================================
 _*Задание №3 - Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13_
 ==================================================================================
 Файл - **[dz_Linux2.sh](https://github.com/nlinky/TerminalLinux/blob/main/HW_Linux2.sh)**
 Комманда - ./dz_Linux2.sh
 
-#!/bin/bash
+```(решетка)!/bin/bash
 cd Linux_commands/
 mkdir one_papka two_papka three_papka
 cd one_papka/
 touch file1.txt file2.txt file3.txt file4.json file5.json
 mkdir one_one one_two one_three
 ls -la
-mv C:/Users/Cherv/git/course/Linux_commands/one_papka/file4.json C:/Users/Cherv/git/course/Linux_commands/one_papka/file5.json C:/Users/Cherv/git/course/Linux_commands/two_papka
+mv C:/Users/Cherv/git/course/Linux_commands/one_papka/file4.json C:/Users/Cherv/git/course/Linux_commands/one_papka/file5.json C:/Users/Cherv/git/course/Linux_commands/two_papka```
 ==================================================================================
-**Задание по GIT - `[Git_HW_1.txt](https://github.com/nlinky/TerminalLinux/blob/main/Git_HW_1.txt)`**
+**Задание по GIT - [Git_HW_1.txt](https://github.com/nlinky/TerminalLinux/blob/main/Git_HW_1.txt)**
 ==================================================================================
  1. Создайте текстовый файл как в первом ДЗ по Terminal.    - `Git_HW_1.txt`
  2. Сценарий перенесите в этот файл.
